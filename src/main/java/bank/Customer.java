@@ -8,11 +8,11 @@ public class Customer {
   private String password;
   private int accountId;
 
-  public Customer(int id, String name, String username, String email, String password, int accountId) {
+  public Customer(int id, String name, String username, /* String email, */ String password, int accountId) {
     setId(id);
     setName(name);
     setUsername(username);
-    setEmail(email);
+    // setEmail(email);
     setPassword(password);
     setAccountId(accountId);
   }
